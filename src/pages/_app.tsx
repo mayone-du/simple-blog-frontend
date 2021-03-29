@@ -1,7 +1,8 @@
-import '../styles/globals.css'
+import "../styles/globalResets.css";
+import "../styles/globals.css";
 
-function MyApp({ Component, pageProps }) {
+const App: React.FC<{ Component: any, pageProps: any }> = ({ Component, pageProps }) => {
   return <Component {...pageProps} />
 }
 
-export default MyApp
+export default App
